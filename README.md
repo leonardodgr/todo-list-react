@@ -17,9 +17,7 @@ Um projeto simples de **Lista de Tarefas (To-do List)** desenvolvido com **React
 
 ## 🔗 Acesse o projeto
 
-👉 [Clique aqui para visualizar o projeto](https://seu-link-aqui.vercel.app)
-
-> Substitua o link acima pelo link real de onde o projeto está hospedado (ex: Vercel, Netlify, GitHub Pages).
+👉 [Clique aqui para visualizar o projeto](https://leonardodgr.github.io/todo-list-react/)
 
 ---
 
