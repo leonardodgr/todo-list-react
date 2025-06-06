@@ -1,8 +1,20 @@
+:root {
+  --bg-1: #fffffe;
+  --bg-2: #d1d1e9;
+  --btn-color: #6246ea;
+  --btn-color-2: #8bd3dd;
+  --btn-color-3: #e45858;
+  --btn-txt-color: #fffffe;
+  --text-color: #2b2c34;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f9f4ef;
+  background: radial-gradient(circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%);
   padding: 30px;
-  color: #020826;
+  color: var(--text-color);
   /* background-image: url();
     background-position: center;
     background-size: cover; */
@@ -11,7 +23,7 @@ body {
 .app {
   max-width: 600px;
   margin: 0 auto 300px;
-  background-color: #eaddcf;
+  background-color: var(--bg-2);
   padding: 20px 30px;
   border-radius: 10px;
 }
@@ -33,8 +45,8 @@ input {
 }
 
 button {
-  background-color: #8c7851;
-  color: #fffffe;
+  background-color: var(--btn-color);
+  color: var(--btn-txt-color);
   padding: 5px 10px;
   border: none;
   cursor: pointer;
@@ -48,6 +60,7 @@ button {
   font-size: 1rem;
   border-radius: 6px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: 600;
 }
 
 button:hover {
@@ -69,11 +82,11 @@ select {
 }
 
 .complete {
-  background-color: #020826;
+  background-color: var(--btn-color);
 }
 
 .remove {
-  background-color: #fa5246;
+  background-color: var(--btn-color-3);
 }
 
 .todo-list {
@@ -83,7 +96,7 @@ select {
 }
 
 .todo {
-  background-color: #fff;
+  background-color: var(--bg-1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 10px;
   margin-bottom: 10px;
