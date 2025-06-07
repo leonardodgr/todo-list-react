@@ -18,5 +18,3 @@ Um projeto simples de **Lista de Tarefas (To-do List)** desenvolvido com **React
 ## 🔗 Acesse o projeto
 
 👉 [Clique aqui para visualizar o projeto](https://leonardodgr.github.io/todo-list-react/)
-
----
