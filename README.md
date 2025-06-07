@@ -20,12 +20,3 @@ Um projeto simples de **Lista de Tarefas (To-do List)** desenvolvido com **React
 👉 [Clique aqui para visualizar o projeto](https://leonardodgr.github.io/todo-list-react/)
 
 ---
-
-## 🛠️ Tecnologias utilizadas
-
-- [React](https://reactjs.org/)
-- CSS3
-- JavaScript (ES6+)
-- `useState` e `props` para gerenciamento local de estado
-
----
